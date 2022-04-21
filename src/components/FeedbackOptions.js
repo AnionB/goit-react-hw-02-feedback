@@ -20,6 +20,6 @@ export default function FeedbackOptions({ options, onLeaveFeedback }) {
 }
 
 FeedbackOptions.propTypes = {
-  options: PropTypes.array,
+  options: PropTypes.arrayOf(PropTypes.string),
   onLeaveFeedback: PropTypes.func,
 };
